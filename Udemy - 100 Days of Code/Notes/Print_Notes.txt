@@ -1,0 +1,8 @@
+### Print is a function that allows you to print strings.
+print("something")
+
+### Use the \n to jump to a new line in the same print statement.
+print("Hello world!\nHello world!")
+
+### String Concatenation: Use + to combine different strings together.
+print("Hello" + " " + "Dude")
