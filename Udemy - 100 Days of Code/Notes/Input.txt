@@ -1,0 +1,11 @@
+### The input() function allows user input.
+input("A prompt for the user")
+
+
+### Concatenate the user input with the print statement.
+print("Hello " + input("What is your name? "))
+
+
+### The user input can be stored in a variable.
+variable = input("User input")
+print(variable)
