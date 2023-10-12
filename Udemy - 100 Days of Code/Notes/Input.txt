@@ -9,3 +9,7 @@ print("Hello " + input("What is your name? "))
 ### The user input can be stored in a variable.
 variable = input("User input")
 print(variable)
+
+
+### Print the length of an input.
+print(len(input("Write a word and I will print the length of it!: ")))
