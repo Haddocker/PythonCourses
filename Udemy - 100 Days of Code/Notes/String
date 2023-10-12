@@ -5,3 +5,6 @@
 
 # It's a string of characters starting from 0 - ∞.
 "Hello"[0]
+
+# You can only concatenate str to str.
+"Hello" + " " + "dude!"
