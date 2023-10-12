@@ -1,0 +1,7 @@
+# String [str]
+
+# Strings always have to be created with double quotes "" around it.
+"Hello"
+
+# It's a string of characters starting from 0 - ∞.
+"Hello"[0]
