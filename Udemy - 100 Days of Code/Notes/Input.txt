@@ -1,15 +1,15 @@
-### The input() function allows user input.
+# The input() function allows user input.
 input("A prompt for the user")
 
 
-### Concatenate the user input with the print statement.
+# Concatenate the user input with the print statement.
 print("Hello " + input("What is your name? "))
 
 
-### The user input can be stored in a variable.
+# The user input can be stored in a variable.
 variable = input("User input")
 print(variable)
 
 
-### Print the length of an input.
+# Print the length of an input.
 print(len(input("Write a word and I will print the length of it!: ")))
