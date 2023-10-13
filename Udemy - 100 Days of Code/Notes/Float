@@ -1,4 +1,13 @@
-# Float
+# Float [float]
+
 
 # Short for a floating point number
 3.14159
+
+
+# You can mix floats and integers freely in math operations.
++ - / *
+
+
+# You can convert other data types into float.
+float(123)

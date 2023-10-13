@@ -1,10 +1,17 @@
 # String [str]
 
+
 # Strings always have to be created with double quotes "" around it.
 "Hello"
+
 
 # It's a string of characters starting from 0 - ∞.
 "Hello"[0]
 
+
 # You can only concatenate str to str.
 "Hello" + " " + "dude!"
+
+
+# You can convert other data types into string.
+str(123)

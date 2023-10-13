@@ -1,0 +1,10 @@
+# Type is an function that will output the data type being used.
+type()
+
+Example code:
+a = 123
+print(type(a))
+Output:
+<class 'int'>
+
+

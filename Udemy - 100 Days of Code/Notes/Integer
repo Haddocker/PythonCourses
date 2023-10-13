@@ -3,6 +3,11 @@
 # An integer is a whole number. A number without any decimals.
 123456789
 
+
 # You can separate big numbers with _ instead of ,
 # The computer will remove these when the program is run.
 123_456_789
+
+
+# You can mix integers and floats freely in math operations.
++ - / *
