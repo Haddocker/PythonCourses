@@ -1,0 +1,42 @@
+# Adding
+2 + 2
+
+
+# Subtracting
+2 - 2
+
+
+# Multiplication
+2 * 2
+
+
+# Dividing
+2 / 2
+# NOTE: Divding numbers will always leave you with a float.
+# Even if its a non decimal number.
+
+
+# Raise a number to the power of.
+2 ** 2
+
+
+# PEMDAS
+# The order of priority:
+# Parentheses ()
+# Exponents **
+# Multiplication *
+# Division /
+# Addition +
+# Subtraction -
+
+# The true priority in python is actually:
+# Parentheses ()
+# Exponents **
+# Both operators a equal important but its the first in line that will be used first.
+# Multiplication *   Division /
+# Addition +   Subtraction -
+
+# Example input:
+3 * (3 + 3) / 3 - 3
+# Output:
+3.0
