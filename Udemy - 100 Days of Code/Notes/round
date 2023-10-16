@@ -1,0 +1,11 @@
+# The function round is used for rounding a number to a non-decimal.
+round(8 / 3)
+# Output:
+2
+
+
+# You can specify how many decimals it should be rounded to.
+round(8 / 3, 2)
+round(2.666666, 2)
+# Output:
+2.67

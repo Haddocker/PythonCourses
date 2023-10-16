@@ -1,22 +1,26 @@
-# Adding
+# Adding +
 2 + 2
 
 
-# Subtracting
+# Subtracting -
 2 - 2
 
 
-# Multiplication
+# Multiplication *
 2 * 2
 
 
-# Dividing
+# Dividing /
 2 / 2
 # NOTE: Divding numbers will always leave you with a float.
 # Even if its a non decimal number.
 
+# Floor Division //
+# You can use floor division to round a number to non-decimal and convert it into an int.
+8 // 3
 
-# Raise a number to the power of.
+
+# Raise a number to the power of **
 2 ** 2
 
 
