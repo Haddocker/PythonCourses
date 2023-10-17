@@ -24,6 +24,16 @@
 2 ** 2
 
 
+# Using variables in mathematical operators:
+score = 0
+# User scores a point.
+score += 1
+print(score)
+# Output:
+1
+# You can do this with all operators.
+
+
 # PEMDAS
 # The order of priority:
 # Parentheses ()
