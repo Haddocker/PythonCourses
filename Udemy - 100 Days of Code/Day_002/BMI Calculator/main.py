@@ -5,15 +5,13 @@ weight = input("What is your weight in kg?: ")
 # BMI = weight(kg) / height^2 (m^2)
 
 
-
-### My code:
+# MY CODE:
 # bmi = float(weight) / float(height) ** 2
 # bmi = int(bmi)
 # pri-nt(f"Your BMI is {bmi}")
 
 
-
-### Udemy code:
+# UDEMY CODE:
 weight_as_int = int(weight)
 height_as_float = float(height)
 
