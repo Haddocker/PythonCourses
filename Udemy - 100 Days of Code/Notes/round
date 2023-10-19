@@ -9,3 +9,13 @@ round(8 / 3, 2)
 round(2.666666, 2)
 # Output:
 2.67
+
+
+# format()
+# This function can round a number to a 2 decimal even if the last decimal is 0.
+# Example input:
+rounded_number = "{:.2f}".format(10.10)
+print(rounded_number)
+# Output:
+10.10 ### and not just 10.1
+
