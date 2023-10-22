@@ -16,9 +16,23 @@ else:
 
 
 # if/elif/else statement:
+# Only one condition will be executed.
 if condition1:
     do A
 elif condition2:
     do B
 else:
     do this
+
+
+# Multiple if statements:
+# All three conditions will be executed.
+if condition1:
+    do A
+if condition2:
+    do B
+if condition3:
+    do C
+
+
+#

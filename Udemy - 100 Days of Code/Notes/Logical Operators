@@ -1,0 +1,18 @@
+# Logical Operators:
+
+# 'and' operator
+A and B
+# TRUE: If both conditions are TRUE then the statement becomes TRUE.
+# FALSE: If one condition is FALSE then the statement becomes FALSE.
+
+
+# 'or' operator
+C or D
+# TRUE: One of the conditions have to be TRUE then the statement becomes TRUE.
+# FALSE: When both conditions are FALSE then the statement is FALSE.
+
+
+# 'not' operator
+not E
+# TRUE: If the condition is FALSE then the statement is TRUE.
+# FALSE: If the condition is TRUE then the statement is FALSE.
