@@ -4,7 +4,13 @@
 
 year = int(input("Insert a year: "))
 
-if year / 4 % 2 == 1:
-    print("Not a leap year.")
+if year / 4 % 2 == 0:
+    if year / 100 % 2 == 0:
+        if year / 400 % 2 == 0:
+            print("Is a leap year.")
+        else:
+            print("Not a leap year.")
+    else:
+        print("Is a leap year.")
 else:
-    if
+    print("Not a leap year.")
