@@ -1,0 +1,36 @@
+# List
+items = [item1, item2]
+
+
+# Creating a list of strings. Every item corresponds to a number starting from [0].
+fruits = ["Cherry", "Apple", "Pear"]
+
+
+# Picking out data from the start of a list.
+print(fruits[0])
+# Output:
+Cherry
+
+
+# Picking out data from the end of an list.
+print(fruits[-1])
+# Output:
+Pear
+
+
+# Changing items in a list. Ex. from Cherry to Banana.
+fruits[0] = Banana
+
+
+# Adding a single item to the end of a list.
+fruits.append("Cherry")
+
+
+# Extending a list with more items / data.
+fruits.extend(["Pineapple", "Melon", "Strawberries"])
+
+
+# Getting the length of a list.
+num_of_fruits = len(fruits)
+
+

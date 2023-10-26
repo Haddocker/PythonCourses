@@ -1,0 +1,16 @@
+# Random Module
+
+# How to use the Random Module.
+import random
+
+
+# Creating a random integer between 1 - 10.
+random_integer = random.randint(1, 10)
+
+
+# Creating a random floating point number between 0.0 - 1.0.
+random_float = random.random()
+# Expanding the range from 0.0 - 1.0 to however many you'd like (5) 0.00000... - 4.99999...
+random_float * 5
+
+
