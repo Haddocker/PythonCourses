@@ -33,4 +33,3 @@ fruits.extend(["Pineapple", "Melon", "Strawberries"])
 # Getting the length of a list.
 num_of_fruits = len(fruits)
 
-
