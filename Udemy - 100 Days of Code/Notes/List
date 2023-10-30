@@ -33,3 +33,8 @@ fruits.extend(["Pineapple", "Melon", "Strawberries"])
 # Getting the length of a list.
 num_of_fruits = len(fruits)
 
+
+# Nested lists. Lists in a list.
+fruits = ["Strawberries", "Apples", "Grapes"]
+vegetables = ["Spinach", "Potatoes", "Celery"]
+food = [fruits, vegetables]
