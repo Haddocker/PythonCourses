@@ -1,0 +1,26 @@
+# For Loop with List:
+for item in list_of_items:
+    # Do something to each item
+
+# Example:
+fruits = ["Apple", "Peach", "Pear"]
+for fruit in fruits:
+    # The For Loop will loop through each of the items (fruit) and print them one by one.
+    print(fruit)
+
+
+
+# For Loop with the range() function:
+for number in range(a, b):
+    print(number)
+
+# Example:
+for number in range(1, 10):
+    # The For Loop will print 1-9 because 0 counts as well.
+    print(number)
+
+# Increase a Range For Loop with a specific number:
+for number in range(1, 11, 3):
+    # The For Loop will print the range but in steps of three.
+    print(number)
+
