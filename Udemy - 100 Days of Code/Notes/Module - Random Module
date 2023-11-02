@@ -14,3 +14,7 @@ random_float = random.random()
 random_float * 5
 
 
+# Selecting a random item from a List:
+list = ["item1", "item2", "item3"]
+random_item = random.choice(list)
+print(random.item)
