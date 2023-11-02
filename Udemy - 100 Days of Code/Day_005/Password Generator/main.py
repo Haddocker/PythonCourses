@@ -11,15 +11,15 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 # Capture if user input is 0
-if nr_letters < 2:
-    print("You have to have at least 2 letters! Try again.")
-    nr_letters = int(input("How many letters would you like in your password?\n"))
-if nr_symbols < 2:
-    print("You have to have at least 2 symbols! Try again.")
-    nr_symbols = int(input(f"How many symbols would you like?\n"))
-if nr_numbers < 2:
-    print("You have to have at least 2 numbers! Try again.")
-    nr_numbers = int(input(f"How many numbers would you like?\n"))
+# if nr_letters < 2:
+#     print("You have to have at least 2 letters! Try again.")
+#     nr_letters = int(input("How many letters would you like in your password?\n"))
+# if nr_symbols < 2:
+#     print("You have to have at least 2 symbols! Try again.")
+#     nr_symbols = int(input(f"How many symbols would you like?\n"))
+# if nr_numbers < 2:
+#     print("You have to have at least 2 numbers! Try again.")
+#     nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 
 # Eazy Level - Order not randomised:
@@ -38,18 +38,17 @@ if nr_numbers < 2:
 
 
 # Hard Level - Order of characters randomised:
-password = ""
+password = []
 
 for letter in range(1, nr_letters + 1):
     password += random.choice(letters)
 
-for letter in range(1, nr_symbols + 1):
+for symbol in range(1, nr_symbols + 1):
     password += random.choice(symbols)
 
-for letter in range(1, nr_numbers + 1):
+for number in range(1, nr_numbers + 1):
     password += random.choice(numbers)
 
-password_list = list(password)
-random.shuffle(password_list)
+random.shuffle(password)
 
-print(''.join(password_list))
+print(''.join(password))
