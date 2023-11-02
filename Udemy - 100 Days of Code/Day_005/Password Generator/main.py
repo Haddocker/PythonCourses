@@ -10,7 +10,7 @@ nr_letters= int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
-# Capture if user input is 0 - NOT DONE.
+# Capture if user input is 0.
 if nr_letters < 2:
     print("You have to have at least 2 letters! Try again.")
     nr_letters = int(input("How many letters would you like in your password?\n"))
