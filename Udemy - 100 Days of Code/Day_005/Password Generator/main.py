@@ -12,7 +12,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 # Capture if user input is 0 - NOT DONE.
 if nr_letters < 2:
-    print("You have to have a least 2 letters! Try again.")
+    print("You have to have at least 2 letters! Try again.")
     nr_letters = int(input("How many letters would you like in your password?\n"))
 if nr_symbols < 2:
     print("You have to have at least 2 symbols! Try again.")
@@ -44,10 +44,10 @@ for letter in range(1, nr_letters + 1):
     password += random.choice(letters)
 
 for letter in range(1, nr_symbols + 1):
-    password += random.choice(numbers)
-
-for letter in range(1, nr_symbols + 1):
     password += random.choice(symbols)
+
+for letter in range(1, nr_numbers + 1):
+    password += random.choice(numbers)
 
 password_list = list(password)
 random.shuffle(password_list)
