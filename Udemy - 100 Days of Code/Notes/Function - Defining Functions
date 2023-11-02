@@ -1,0 +1,15 @@
+https://docs.python.org/3/library/functions.html
+
+# Creating/defining a function:
+def my_function():
+    # Do this
+    # Then do this
+    # Finally do this
+
+# Example:
+def my_function():
+    print("Hello")
+    print("Bye")
+
+# Calling the function:
+my_function()

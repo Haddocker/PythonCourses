@@ -1,0 +1,16 @@
+# While Loops:
+
+# While the condition is true the loop will repeat.
+# If the condition becomes false the loop will stop.
+while something_is_true:
+    # Do this
+    # Then do this
+    # Then do this
+    # Repeat until false
+
+
+# Infinite Loop
+while 5 > 3:
+    # Do this
+    # Then do this
+    # Then do this...
