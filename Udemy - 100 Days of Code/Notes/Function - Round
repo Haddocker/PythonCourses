@@ -18,4 +18,3 @@ rounded_number = "{:.2f}".format(10.10)
 print(rounded_number)
 # Output:
 10.10 ### and not just 10.1
-
