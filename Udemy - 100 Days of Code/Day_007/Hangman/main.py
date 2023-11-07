@@ -4,7 +4,7 @@ from hangman_art import logo, stages
 from hangman_words import word_list
 
 
-# Faking a clear all..
+# Faking a clear all...
 def clear_screen():
     print('\n' * 100)
 
