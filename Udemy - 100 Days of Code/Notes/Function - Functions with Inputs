@@ -1,0 +1,10 @@
+# Functions with Inputs
+
+# Defining s
+def my_function(something):
+    # Do this with
+    # Then do this
+    # Finally do this
+
+# The input will pass over into the function.
+my_function(123)
