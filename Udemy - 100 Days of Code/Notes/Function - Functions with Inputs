@@ -1,5 +1,6 @@
 # Functions with Inputs
 
+# Creating a new variable in a function called 'something'.
 def my_function(something):
     # Do this with
     # Then do this
@@ -8,6 +9,8 @@ def my_function(something):
 # The input will pass over into the function. 'something' = '123'
 my_function(123)
 
+something = 123
+Parameter = Argument
 
 # Example:
 def greet_with_name(name):
@@ -15,3 +18,26 @@ def greet_with_name(name):
     print(f"How do you do {name}?)
 
 greet_with_name("Alex")
+
+
+
+# Positional Argument
+# Functions with more than 1 input
+def my_function(a, b, c):
+    # Do this with a
+    # Then do this with b
+    # Finally do this with c
+
+# Make sure that the arguments match up to right parameter.
+my_function(1, 2, 3)
+
+
+
+# Keyword Arguments:
+def my_function(a, b, c):
+    # Do this with a
+    # Then do this with b
+    # Finally do this with c
+
+# No matter how the order is its still going to use the bindings.
+my_function(c=3, b=2, a=1)
