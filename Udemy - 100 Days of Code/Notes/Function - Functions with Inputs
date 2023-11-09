@@ -1,10 +1,17 @@
 # Functions with Inputs
 
-# Defining s
 def my_function(something):
     # Do this with
     # Then do this
     # Finally do this
 
-# The input will pass over into the function.
+# The input will pass over into the function. 'something' = '123'
 my_function(123)
+
+
+# Example:
+def greet_with_name(name):
+    print(f"Hello {name}")
+    print(f"How do you do {name}?)
+
+greet_with_name("Alex")
