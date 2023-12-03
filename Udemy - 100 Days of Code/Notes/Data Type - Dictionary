@@ -1,0 +1,11 @@
+# Dictionaries:
+
+# Creating a dictionary:
+dictionary = {
+key1: Value1,
+key2: value2,
+key3: value3,
+}
+
+# Example:
+{"Bug": "An error in a program that prevents the program from running as expected."}
