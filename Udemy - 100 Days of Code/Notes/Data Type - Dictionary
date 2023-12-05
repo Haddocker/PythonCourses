@@ -1,3 +1,5 @@
+# Values in dictionaries are accessed by their key.
+
 # Creating a dictionary:
 dictionary = {
     key1: Value1,
