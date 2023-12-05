@@ -1,11 +1,35 @@
-# Dictionaries:
-
 # Creating a dictionary:
 dictionary = {
-key1: Value1,
-key2: value2,
-key3: value3,
+    key1: Value1,
+    key2: value2,
+    key3: value3,
 }
 
-# Example:
-{"Bug": "An error in a program that prevents the program from running as expected."}
+
+# Retrieving items from a dictionary.
+# Remember to call the right data type in your key. If its a string or int..
+dictionary["key1"]
+
+
+# Adding new items to a dictionary.
+dictionary["key4"] = "value4"
+
+
+# Create an empty dictionary.
+empty_dictionary = {}
+
+
+# Wipe an existing dictionary.
+dictionary = {}
+
+
+# Edit an item in a dictionary.
+dictionary["key1"] = "new_value1"
+
+
+# Loop through a dictionary.
+for key in dictionary:
+    # Print each of the keys.
+    print(key)
+    # Print the value of each keys.
+    print(dictionary[key])

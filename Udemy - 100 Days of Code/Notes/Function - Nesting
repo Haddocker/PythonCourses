@@ -1,0 +1,30 @@
+# Nesting both a [List] and a {Dictionary} in a dictionary.
+{
+    key1: [List],
+    key2: {Dict},
+}
+
+
+# Nesting a List in a Dictionary.
+dictionary = {
+    key1: ["list_item1", "list_item2", "list_item3"],
+    key2: ["list_item1", "list_item2", "list_item3"],
+}
+
+
+# Nesting a Dictionary in a Dictionary.
+dictionary = {
+    key1: {"key1_1": ["list_item1", "list_item2", "list_item3"], "key1_2": value1},
+    key2: {"key2_1": ["list_item1", "list_item2", "list_item3"], "key2_2": value1},
+}
+
+
+# Nesting a Dictionary in a List.
+[{
+    key1: [List],
+    key2: {Dict},
+},
+{
+    key1: value1,
+    key2: value2,
+}]
