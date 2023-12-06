@@ -1,3 +1,25 @@
+# Creating a function with a return output.
+# The 'return' will stop the function and everything after that wont be executed.
 def my_function():
     result = 3 * 2
-    return result
+    return
+
+# The output will be equal to 6.
+output = result
+output = my_function()
+
+
+# Example:
+# Functions with Outputs. (Returning a String)
+def format_name(f_name, l_name):
+    formatted_f_name = f_name.title()
+    formatted_l_name = l_name.title()
+    return f"{formatted_f_name} {formatted_l_name}"
+
+formatted_string = format_name("alek", "RIIS")
+print(formatted_string)
+# Output:
+Alek Riis
+
+
+# Functions with Multiple return values:
