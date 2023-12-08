@@ -1,0 +1,8 @@
+# Docstrings is a way to document your code. (Strings)
+# Write the Docstrings in between 3 x "
+# Docstrings can be multi-line comments too.
+def my_function(input1, input2)
+    """Documentation here..."""
+
+# When looking at an function the Docstring will show up as a foot note.
+my_function()
