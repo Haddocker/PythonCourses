@@ -23,3 +23,12 @@ Alek Riis
 
 
 # Functions with Multiple return values:
+# The return value will terminate the function early (if user doesnt provide input).
+def format_name(f_name, l_name):
+    if f_name == "" or l_name == "":
+        return
+    formatted_f_name = f_name.title()
+    formatted_l_name = l_name.title()
+    return f"Result: {formatted_f_name} {formatted_l_name}
+
+print(format_name(input("What is your first name?: "), input("What is your last name?: ")))
